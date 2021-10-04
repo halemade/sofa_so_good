@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -135,4 +136,7 @@ dmypy.json
 .piece.csv
 .Envis-Fdmpmodel.csv
 .pytest/
-.data/
+/data
+/piece.csv
+/preprocessing.ipynb
+
