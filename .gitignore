@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#files to keep locally
+.preprocessing.ipynb
+.tomfilicia.csv
+.style_descriptions.csv
+.piece.csv
+.Envis-Fdmpmodel.csv
+.pytest/
+.data/
