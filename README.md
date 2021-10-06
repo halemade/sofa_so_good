@@ -10,6 +10,13 @@ The data used in this project is from two separate furniture manufacturer's CAD/
 
 ### EDA
 
+Intitial data exploration revealed the beginnings of separability. Data for visualizations was decomposed using incremental PCA, to conserve computational power.
+
+![title_image](./images/separability.png)
+
+more eda description here.
+
+
 ### Model Structure + Initial Findings
 I ran 10 baseline classifiers on the first level of modeling and the performance ranged between ___ and ___ on the test sets.
 
@@ -29,4 +36,4 @@ More about the nature of the final model here.
 
 ### Repository Structure
 
-##
+### About the Author
