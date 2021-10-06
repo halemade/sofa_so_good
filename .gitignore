@@ -1,5 +1,6 @@
 
 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -142,5 +143,13 @@ dmypy.json
 /preprocessing.ipynb
 
 #data files
-*.csv
-
+/prog_6_ngrams.csv
+/prog_5_ngrams.csv
+/prog_4_ngrams.csv
+/prog_3_ngrams.csv
+/prog_1_ngrams.csv
+/program_1.csv
+/program_3.csv
+/program_4.csv
+/program_5.csv
+/program_6.csv
