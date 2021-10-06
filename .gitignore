@@ -143,13 +143,20 @@ dmypy.json
 /preprocessing.ipynb
 
 #data files
+<<<<<<< HEAD
 /prog_6_ngrams.csv
 /prog_5_ngrams.csv
 /prog_4_ngrams.csv
 /prog_3_ngrams.csv
 /prog_1_ngrams.csv
+=======
+>>>>>>> 0dbce72b8e663560574cfe1f3a72484bd44fce87
 /program_1.csv
 /program_3.csv
 /program_4.csv
 /program_5.csv
 /program_6.csv
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dbce72b8e663560574cfe1f3a72484bd44fce87
