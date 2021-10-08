@@ -1,16 +1,16 @@
 ![title_image](./images/ssg.png)
 
-# Predictive ML for CAD/CAM Pattern Metadata
+# Predictive Classification ML for CAD/CAM Pattern Metadata
 
 ### Objective
-The objective of this project is to understand if metadata from Gerber Accumark CAD/CAM systems can be used to classify objects based on characteristics such as perimeter, area, number of internal lines, etc. 
+The objective of this project is to understand how metadata from Gerber Accumark CAD/CAM systems can be used to classify objects based on characteristics such as perimeter, area, number of internal lines, etc. 
 
 ### Data
-The data used in this project is from two separate furniture manufacturer's CAD/CAM system. Identifying information has been removed. Initially this data was unlabeled, but by using web scraping and NLP ngram techniques I was able to label the dataset and, therefore, assess performance. I have not pushed this code to the repository because it contains company information. Also, the datasets are extremely large, some having up to 6 million records. One smaller, sample set is available for view in the public repo.
+The data used in this project is from two separate manufacturer's CAD/CAM systems. Identifying information has been removed. Initially this data was unlabeled, but by using web scraping and NLP ngram techniques I was able to label the dataset and, therefore, assess performance. I have not pushed this code to the repository because it contains private information. Also, the datasets are extremely large, some having up to 6 million records. One smaller, sample set is available for view in the public repo.
 
 ### EDA
 
-Intitial data exploration revealed the beginnings of separability. Data for visualizations was decomposed using incremental PCA, to conserve computational power.
+Intitial data exploration revealed the beginnings of separability. The visualization below was created using the smallest dataset, and looks promising. Data for visualizations was decomposed using incremental PCA, to conserve computational power.
 
 ![title_image](./images/separability.png)
 
