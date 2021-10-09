@@ -16,7 +16,7 @@ Intitial data exploration revealed the beginnings of separability. The visualiza
 
 Visualizing the labeled pieces, it's clear that they form clusters.
 
-| "CU" cluster  | "DECK" cluster | "WELT" cluster |
+| label 1 cluster  | label 2 cluster | label 3 cluster |
 | ------------- | ------------- | ------------- |
 | ![cu](./images/cu.png)   | ![deck](./images/deck.png)   | ![welt](./images/welt.png)   |
 
