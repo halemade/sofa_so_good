@@ -14,7 +14,11 @@ Intitial data exploration revealed the beginnings of separability. The visualiza
 
 ![title_image](./images/separability.png)
 
-more eda description here.
+Visualizing the labeled pieces, it's clear that they form clusters.
+
+| "CU" cluster  | "DECK" cluster | "WELT" cluster |
+| ------------- | ------------- | ------------- |
+| ![cu](cu.png)   | ![deck](bp.png)   | ![welt](welt.png)   |
 
 
 ### Model Structure + Initial Findings
