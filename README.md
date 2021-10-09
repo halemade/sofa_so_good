@@ -12,13 +12,9 @@ The data used in this project is from two separate manufacturer's CAD/CAM system
 
 Intitial data exploration revealed the beginnings of separability. The visualization below was created using the smallest dataset, and looks promising. Data for visualizations was decomposed using incremental PCA. Visualizing the classes, it's clear that they form clusters.
 
-| class separability | label 1 cluster |
-| ------------- | ------------- |
-| ![all labels](./images/separability.png)   | ![welt](./images/welt.png)   |
-
-| label 1 cluster  | label 2 cluster |
-| ------------- | ------------- |
-| ![cu](./images/cu.png)   | ![deck](./images/deck.png)   |
+| cluster 1 | cluster 2 | cluster 3 |
+| ------------- | ------------- | ------------- |
+| ![all labels](./images/cu.png)   | ![welt](./images/welt.png)   | ![deck](./images/deck.png)   |
 
 
 ### Model Structure + Initial Findings
