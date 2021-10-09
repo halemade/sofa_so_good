@@ -1,6 +1,6 @@
 ![title_image](./images/ssg.png)
 
-# Predictive Classification ML for CAD/CAM Pattern Metadata
+# Classification for CAD/CAM Pattern Metadata
 
 ### Objective
 The objective of this project is to understand how metadata from Gerber Accumark CAD/CAM systems can be used to classify objects based on characteristics such as perimeter, area, number of internal lines, etc. 
