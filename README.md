@@ -22,9 +22,15 @@ Visualizing the labeled pieces, it's clear that they form clusters.
 
 
 ### Model Structure + Initial Findings
-I ran 10 baseline classifiers on the first level of modeling and the performance ranged between ___ and ___ on the test sets.
-
-[insert vanilla_models image here.]
+I ran 10 baseline classifiers on the first level of modeling and the performance ranged between 0.253 and 0.986 on F1 score on the test sets.
+| Classifier | Train Accuracy | Train Precision | Train Recall | Train F1 Score | Test Accuracy | Test Precision | Test Recall | Test F1 Score | Test Time |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Logistic Regression | 0.356 | 0.200 | 0.356 | 0.252 | 0.356 | 0.202 | 0.356 | 0.253 | 70.90 |
+| KNearest Neighbors | 0.993 | 0.993 | 0.993 | 0.993 | 0.986 | 0.986 | 0.986 | 0.986 | 33.69 |
+| Naive Bayes | 0.395 | 0.399 | 0.395 | 0.373 | 0.393 | 0.398 | 0.393 | 0.371 | 11.69 |
+| Decision Tree | 0.529 | 0.517 | 0.529 | 0.486 | 0.528 | 0.517 | 0.528 | 0.485 | 14.52 |
+| Random Forest | 0.538 | 0.517 | 0.538 | 0.492 | 0.537 | 0.515 | 0.537 | 0.491 | 17.35 |
+| XGBoost | 0.976 | 0.976 | 0.976 | 0.976 | 0.969 | 0.969 | 0.969 | 0.969 | 302.54 |
 
 However, due to the nature of the problem, this learning actually requires stacked models. Roughly, the form of the model is as illustrated:
 
