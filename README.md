@@ -22,7 +22,7 @@ Visualizing the labeled pieces, it's clear that they form clusters.
 
 
 ### Model Structure + Initial Findings
-I ran 10 baseline classifiers on the first level of modeling and the performance ranged between 0.253 and 0.986 on F1 score on the test sets.
+I ran 6 baseline classifiers on the first level of modeling and the performance ranged between 0.253 and 0.986 on F1 score on the test sets.
 | Classifier | Train Accuracy | Train Precision | Train Recall | Train F1 Score | Test Accuracy | Test Precision | Test Recall | Test F1 Score | Test Time |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Logistic Regression | 0.356 | 0.200 | 0.356 | 0.252 | 0.356 | 0.202 | 0.356 | 0.253 | 70.90 |
@@ -34,7 +34,7 @@ I ran 10 baseline classifiers on the first level of modeling and the performance
 
 However, due to the nature of the problem, this learning actually requires stacked models. Roughly, the form of the model is as illustrated:
 
-[insert model structure illustration here.]
+![model structure](./images/structure.png)
 
 More about the nature of the final model here.
 
