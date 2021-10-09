@@ -18,7 +18,7 @@ Visualizing the labeled pieces, it's clear that they form clusters.
 
 | "CU" cluster  | "DECK" cluster | "WELT" cluster |
 | ------------- | ------------- | ------------- |
-| ![cu](cu.png)   | ![deck](bp.png)   | ![welt](welt.png)   |
+| ![cu](./images/cu.png)   | ![deck](./images/bp.png)   | ![welt](./images/welt.png)   |
 
 
 ### Model Structure + Initial Findings
