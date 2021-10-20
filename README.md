@@ -12,13 +12,9 @@ The data used in this project is from two separate manufacturer's CAD/CAM system
 
 Intitial data exploration revealed the beginnings of separability. The visualization below was created using the smallest dataset, and looks promising. Data for visualizations was decomposed using incremental PCA. Visualizing the classes, it's clear that they form clusters.
 
-| class separability | label 1 cluster |
-| ------------- | ------------- |
-| ![all labels](./images/separability.png)   | ![welt](./images/welt.png)   |
-
-| label 1 cluster  | label 2 cluster |
-| ------------- | ------------- |
-| ![cu](./images/cu.png)   | ![deck](./images/deck.png)   |
+| cluster 1 | cluster 2 | cluster 3 |
+| ------------- | ------------- | ------------- |
+| ![all labels](./images/cu.png)   | ![welt](./images/welt.png)   | ![deck](./images/deck.png)   |
 
 
 ### Model Structure + Initial Findings
@@ -36,14 +32,42 @@ However, due to the nature of the problem, this learning actually requires stack
 
 ![model structure](./images/structure.png)
 
-More about the nature of the final model here.
-
 ### Results
+At both the first and second level of modeling, I was able to acheive over **96% successful classification**. The first model is the distance-based KNN algorithm, and it correctly classfies pieces 99% of the time, a result that remained consistent across crossvalidation sets. The second model is the boosted ensemble method XGBoost, and it correctly classified objects based on aggregated information from the first model, 82% of the time. After implementing NLP techniques, I was able to improve this performance to 96%-99%, depending on the collection.
 
 ### Limitations
+The data in this project was restricted to that of 2 separate manufacturers and I would like to expand the source to make sure the algorithmic performace holds industry-wide. I was also severly limited by computational power at the first level of modeling - many of the data sets had millions of records. However, despite these limitations I feel that the sample I used to train this algorithm is representative.
 
 ### Next Steps
+Over the next couple of months I will work to translate these patterns from classification parameters to formulas for development using object-oriented programming. I will also explore image-based machine learning to bolster the supply of material for training these algorithms.
 
-### Repository Structure
+I would like to apply a similar analysis across the other industries that utilize CAD/CAM cutting to see if similar patterns exist. 
 
-### About the Author
+
+## For More Information
+
+See learn more please explore the Jupyter Notebooks in this repo or review this [presentation](./presentation.pdf).
+
+For additional info, contact the author at:<br>
+[Taylor Hale Robert](mailto:taylorhale11@gmail.com)
+
+
+## Repository Structure
+
+```
+├── EDA.ipynb
+├── modeling.ipynb
+├── data
+│   └── customer_churn.csv
+├── images
+│   ├── nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg
+│   ├── dom-fou-YRMWVcdyhmI-unsplash.jpg
+│   ├── EDA.png
+│   ├── EDA_1.png
+│   ├── roc_auc.png
+│   ├── important_features.png
+│   └── baseline.png
+├── .gitignore
+├── README.md
+└── presentation.pdf
+ 
